@@ -17,11 +17,18 @@ Lot 2 has a mean PSI of 1500.2, median of 1500, variance of 7.47, and standard d
 Lot 3 has a mean PSI of 1496.14, median of 1498.5, variance of 170.29, and standard deviation of 13.05.
 
 ## T-Test on Suspension Coils
-![image](https://user-images.githubusercontent.com/92773195/152667684-7c76dfe0-6d5a-4f39-8ac6-3619eaec6b3f.png)
+![image](https://user-images.githubusercontent.com/92773195/152703175-3edca962-94c9-43ef-89eb-4370f4b0c7de.png)
 
-![image](https://user-images.githubusercontent.com/92773195/152667694-204f63aa-847e-4e33-ad0a-06d173ef9103.png)
+With a p-value of 0.06028, we fail to reject the null hypothesis and conclude that there is not sufficient evidence to believe that the average PSI across manufacturing lots is different from the population mean of 1500 PSI.
 
-![image](https://user-images.githubusercontent.com/92773195/152667711-e33f81e3-5f18-47aa-8730-ee475db2ff84.png)
+![image](https://user-images.githubusercontent.com/92773195/152703237-f77fd691-9acb-4f45-8598-e4c7d4c73ca3.png)
+With a p-value of 1, we fail to reject the null hypothesis and conclude that Manufacturing Lot 1 does not have a significantly different mean PSI from the population mean of 1500 PSI.
 
-![image](https://user-images.githubusercontent.com/92773195/152667723-6ee3cba8-b068-4a0b-8765-c38dc2fc1147.png)
+![image](https://user-images.githubusercontent.com/92773195/152703260-d3c8c3c2-43ff-432d-9f9e-10b39e740d8e.png)
+With a p-value of 0.6072 and an alpha significance level of 0.05, we once again fail to reject the null hypothesis and conclude that there is not sufficient evidence to conclude that Manufacturing Lot 2 has a different average PSI from the population mean of 1500 PSI.
+
+![image](https://user-images.githubusercontent.com/92773195/152703298-6392c760-9946-4963-9e3d-ca398a09fdbb.png)
+However this time, with a p-value of 0.04168, and an alpha significance level of 0.05, we reject the null hypothesis and that there is sufficient evidence to conclude that Manufacturing Lot 3 has a significantly different average PSI from the population mean of 1500 PSI.
+
+
 
